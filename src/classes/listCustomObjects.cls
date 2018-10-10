@@ -1,6 +1,7 @@
 /*
 Metadata - The Schema class contains for getting metatdata about objects.
 */
+
 List<String> customObjects = new List<String>();
 
 List<Schema.SObjectType> allObjects = Schema.getGlobalDescribe().values();
